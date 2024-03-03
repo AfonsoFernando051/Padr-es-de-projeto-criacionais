@@ -8,6 +8,5 @@ public class CriadorPDF extends CriadorDocumento {
 	@Override
 	public void processarDocumento() {
 		super.processarDocumento();
-		System.out.println("Documento PDF processado...");
 	}
 }
