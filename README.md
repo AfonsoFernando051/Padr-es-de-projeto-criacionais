@@ -7,3 +7,8 @@ Padrões de Projeto Criacionais:
 
 Padrão Factory:
     Define uma interface para criar um objeto, mas permite que as subclasses alterem o tipo de objetos que serão criados.
+
+Padrão Abstract Factory:
+    O padrão de projeto Abstract Factory é um padrão de criação que fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. Ele é útil quando você precisa garantir que os objetos criados pertençam a famílias específicas e são projetados para funcionar juntos. O Abstract Factory permite que você crie instâncias de classes relacionadas sem especificar suas classes concretas.
+
+    A ideia principal é fornecer uma interface para criar famílias de objetos, mas deixar as subclasses decidirem quais classes concretas instanciar.
