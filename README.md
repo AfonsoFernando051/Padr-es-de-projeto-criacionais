@@ -12,3 +12,6 @@ Padrão Abstract Factory:
     O padrão de projeto Abstract Factory é um padrão de criação que fornece uma interface para criar famílias de objetos relacionados ou dependentes sem especificar suas classes concretas. Ele é útil quando você precisa garantir que os objetos criados pertençam a famílias específicas e são projetados para funcionar juntos. O Abstract Factory permite que você crie instâncias de classes relacionadas sem especificar suas classes concretas.
 
     A ideia principal é fornecer uma interface para criar famílias de objetos, mas deixar as subclasses decidirem quais classes concretas instanciar.
+
+Padrão Singleton
+    O padrão Singleton é um padrão de design que garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a essa instância. Ele é útil em situações em que você deseja limitar o número de instâncias de uma classe, como quando você precisa de um único objeto compartilhado em toda a sua aplicação.
