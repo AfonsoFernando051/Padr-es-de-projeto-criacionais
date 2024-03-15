@@ -18,3 +18,6 @@ Padrão Singleton
 
 Padrão Monostate
     O Monostate é um padrão de design que permite que múltiplos objetos compartilhem o mesmo estado interno, mas pareçam ser instâncias independentes para o mundo exterior. Em outras palavras, os objetos do Monostate compartilham o mesmo estado (variáveis de instância), mas cada objeto tem sua própria identidade aparente. Isso pode ser útil em situações em que você deseja que diferentes objetos tenham o mesmo estado, mas não quer criar uma verdadeira instância compartilhada, como no Singleton.
+
+Builder
+    O padrão de design Builder é usado para criar objetos complexos passo a passo. Ele permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção. Isso é útil quando a criação de um objeto requer uma série de etapas ou quando você deseja criar objetos imutáveis.
