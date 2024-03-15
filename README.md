@@ -15,3 +15,6 @@ Padrão Abstract Factory:
 
 Padrão Singleton
     O padrão Singleton é um padrão de design que garante que uma classe tenha apenas uma instância e fornece um ponto global de acesso a essa instância. Ele é útil em situações em que você deseja limitar o número de instâncias de uma classe, como quando você precisa de um único objeto compartilhado em toda a sua aplicação.
+
+Padrão Monostate
+    O Monostate é um padrão de design que permite que múltiplos objetos compartilhem o mesmo estado interno, mas pareçam ser instâncias independentes para o mundo exterior. Em outras palavras, os objetos do Monostate compartilham o mesmo estado (variáveis de instância), mas cada objeto tem sua própria identidade aparente. Isso pode ser útil em situações em que você deseja que diferentes objetos tenham o mesmo estado, mas não quer criar uma verdadeira instância compartilhada, como no Singleton.
