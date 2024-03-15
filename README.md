@@ -21,3 +21,6 @@ Padrão Monostate
 
 Builder
     O padrão de design Builder é usado para criar objetos complexos passo a passo. Ele permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção. Isso é útil quando a criação de um objeto requer uma série de etapas ou quando você deseja criar objetos imutáveis.
+
+Prototype
+    O padrão Prototype é um padrão de design criacional que se concentra na criação de objetos a partir de um modelo existente. Ele permite criar novos objetos duplicando um objeto existente, chamado de protótipo, em vez de instanciar um novo objeto do zero. Isso pode ser útil quando a criação de um objeto é custosa em termos de recursos computacionais ou quando o objeto já está em um estado desejado.
